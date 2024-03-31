@@ -33,3 +33,16 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 $ python manage.py runserver
 ```
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
+
+## Docker commands
+
+```bash
+$ docker compose up -d
+```
+To run Django todoApp, access Django todoApp at http://127.0.0.1:8000/todos
+
+```bash
+$ docker compose down
+```
+To stop all running docker container.
+
